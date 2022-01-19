@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="4dp"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="MockAPI Latif"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="0dp"
+        android:text="NIM : 180201001"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number"/>
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hitung Modulus"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/hasil1"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="30dp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="saya mendaptkan modulus 2 jadi saya mengkases mockAPI bahasa pemrograman,berikut detailnya."
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/bahasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="list pemrograman"/>
+
+
+</LinearLayout>
